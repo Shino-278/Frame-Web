@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<form method="post" action="data.php" >
+		<table width="100%" border="0" cellpadding="10px" cellspacing="1px" style="font-family:'century gothic';">
+
+			<tr>
+				<td width="45%"><h2>Data Pribadi</h2></td>
+				<td align="Right" style="font-size: 12px;">*Data yang di input tidak dapat diubah kembali, harap isi dengan teliti dan benar</td>
+			</tr>
+
+			<tr>
+				<td colspan="2"><hr size="2" color="black"></td>
+			</tr>
+
+			<tr>
+				<td>
+					<label>NISN</label><br> 
+					<input type="text" name="nisn" class="input" placeholder="NISN">		
+				</td>
+
+				<td>
+					<label>NIK</label><br>
+					<input type="text" name="nik" class="input" placeholder="NIK">	
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label>Nama Lengkap</label><br>
+					<input type="text" name="nama" class="input" placeholder="Nama Lengkap">
+				</td>
+
+				<td>
+					<label>Jenis Kelamin</label><br>
+					<select class="option" name="jenis_kelamin">
+						<option value="Laki-Laki">Laki-Laki</option>
+						<option value="Perempuan">Perempuan</option>
+					</select>
+				</td>
+			</tr>
+
+				<tr>
+					<td>
+						<label>Tempat Lahir</label><br>
+						<input type="text" name="tempat" class="input" placeholder="Tempat Lahir">
+					</td>
+
+					<td>
+						<label>Tanggal Lahir</label><br>
+						<input type="date" name="bday" class="bday">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2">
+						<label>Alamat Lengkap</label><br>
+						<textarea class="alamat"></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label>Agama</label><br>
+						<select class="option" name="jurusan">
+							<option value="Islam">Islam</option>
+							<option value="Kristen Protestan">Kristen Protestan</option>
+							<option value="Kristen Katolik">Kristen Katolik</option>
+							<option value="Hindu">Hindu</option>
+							<option value="Buddha">Buddha</option>
+							<option value="Konghucu">Konghucu</option>
+						</select>
+					</td>
+
+					<td>
+						<label>No Telepon</label><br> 
+					<input type="text" name="telepon" class="input" placeholder="No Telepon">
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						<button class="button" type="submit">Daftar</button> 
+						<button class="button" type="reset">Muat Ulang</button>
+					</td>
+				</tr>	
+
+		</table>
+	</form>
+</body>
+</html>
